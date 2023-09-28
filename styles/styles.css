@@ -136,7 +136,7 @@ p {
 
 /* Home-Info */
 #home-info {
-  height: 400px;
+  height: 450px;
 }
 
 #home-info .info-img {
@@ -155,6 +155,9 @@ p {
   overflow: hidden;
 }
 
+#home-info h2 {
+  line-height: 1.5em;
+}
 #home-info .info-content p {
   padding-bottom: 25px;
 }
