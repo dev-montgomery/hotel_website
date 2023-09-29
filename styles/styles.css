@@ -71,8 +71,12 @@ p {
 }
 
 .bg-primary {
-  background: #333;
-  color: #f7c08a;
+  background: #f7c08a;
+  color: #333;
+}
+
+.clr {
+  clear: both;
 }
 
 /* Navbar */
@@ -115,7 +119,8 @@ p {
 /* Showcase */
 #showcase {
   background: url('../assets/showcase.jpg') no-repeat center center/cover;
-  height: 100vh;
+  display: flex;
+  padding-bottom: 100px;
 }
 
 #showcase .showcase-content {
@@ -136,7 +141,7 @@ p {
 
 /* Home-Info */
 #home-info {
-  height: 450px;
+  display: flex;
 }
 
 #home-info .info-img {
@@ -160,4 +165,26 @@ p {
 }
 #home-info .info-content p {
   padding-bottom: 25px;
+}
+
+/* Features */
+#features {
+  display: flex;
+}
+
+.box {
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
 }
