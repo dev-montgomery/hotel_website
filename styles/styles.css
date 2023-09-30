@@ -179,6 +179,7 @@ p {
 }
 
 .box {
+  flex: 1;
   padding: 50px;
   text-align: center;
 }
@@ -239,6 +240,37 @@ p {
   width: 100px;
   border-radius: 50%;
   opacity: 1;
+}
+
+/* Contact Page Styling */
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: flex;
+  /* margin-bottom: 5px; */
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
+
+.contact-data {
+  display: flex;
 }
 
 /* Footer */
