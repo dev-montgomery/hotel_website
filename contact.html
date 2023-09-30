@@ -3,9 +3,84 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta name="description" content="About HTB Hotel and Suites | Seattle, WA">
+  <meta name="keywords" content="hotel, seattle, amenities, gym, pool, spa, restaurant">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <title>Contact HBT | Seattle</title>
+  <script src="https://kit.fontawesome.com/a5fca5d42f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  
+  <header>
+    <nav id="navbar">
+      <div class="container">
+        <h1 class="logo">
+          <a href="index.html">HBT | SEATTLE, WA</a>
+        </h1>
+        <ul>
+          <li><a class="current" href="index.html">Home</a></li>
+          <li><a class="current" href="about.html">About</a></li>
+          <li><a class="current" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section id="contact-form" class="py-3">
+    <div class="container">
+      <h1 class="l-heading">
+        <span class="text-primary">RESERVATIONS</span> AT HBT SEATTLE
+      </h1>
+      <p>
+        Please fill out the information below to contact us.
+      </p>
+      <form action="process.php">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input placeholder="First and Last Name" type="text" name="name" id="name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input placeholder="Email Address" type="email" name="email" id="email">
+        </div>
+        <div class="form-group">
+          <label for="message">Reservation</label>
+          <textarea placeholder="Please specify dates" name="message" id="message"></textarea>
+        </div>
+        <button type="submit" class="btn">submit</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="contact-info" class="bg-dark">
+    <div class="container contact-data">
+      <div class="box">
+        <i class="fa-solid fa-hotel fa-3x"></i>
+        <h3>Location</h3>
+        <p>
+          99 Union St, Seattle, WA 98101
+        </p>
+      </div>
+      <div class="box">
+        <i class="fa-solid fa-phone fa-3x"></i>
+        <h3>Lobby Host</h3>
+        <p>
+          206.749.7000 
+        </p>
+      </div>
+      <div class="box">
+        <i class="fa-solid fa-envelope fa-3x"></i>
+        <h3>Email</h3>
+        <p>
+          lobbyhost@hbtseattle.com
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="main-footer">
+    <p>
+      HBT | SEATTLE, WA &copy; 2023, All Rights Reserved
+    </p>
+  </footer>
 </body>
 </html>
