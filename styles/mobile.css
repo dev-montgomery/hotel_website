@@ -1,0 +1,81 @@
+#navbar .logo {
+  float: none;
+  text-align: center;
+}
+
+#navbar ul {
+  padding-bottom: 5px;
+}
+
+#navbar ul,
+#navbar ul li {
+  float: none;
+}
+
+#navbar ul li {
+  border-bottom: #444 dotted 1px;
+}
+
+#navbar ul li:nth-child(3) {
+  border-bottom: none;
+}
+
+/* Showcase */
+#showcase .showcase-content {
+  padding-top: 70px;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 4em;
+}
+
+#showcase .showcase-content p {
+  font-size: 1.2em;
+}
+
+/* Home Info */
+#home-info .info-img {
+  display: none;
+}
+
+#home-info .info-content {
+  float: none;
+  width: 100%;
+}
+
+/* Features */
+#features {
+  flex-direction: column;
+}
+
+/* About Page Styles */
+#about-info .container {
+  flex-direction: column;
+}
+
+#about-info .info-left {
+  padding: 20px 20px 0 20px;
+}
+
+/* Contact Page Styles */
+#contact-form .container h1 {
+  line-height: 1;
+}
+
+#contact-form .container p {
+  /* text-align: center; */
+  padding-bottom: 15px;
+}
+
+#contact-info .container {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-info .container .box {
+  border-bottom: 1px dotted #444;
+}
+
+#contact-info .container .box:nth-child(3) {
+  border-bottom: none;
+}
